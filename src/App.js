@@ -20,7 +20,7 @@ import './App.css';
   
     const query = event.target.value;
     
-    var updatedList = [...itemList];
+    let updatedList = [...itemList];
     
     updatedList = updatedList.filter((item) => {
       return item.toLowerCase().indexOf(query.toLowerCase()) !== -1;
